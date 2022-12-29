@@ -1,0 +1,68 @@
+strong:hover {
+    cursor: pointer;
+}
+
+.actionBtn {
+    margin: 1rem;
+    margin-left: 0;
+}
+
+.outmostContainer {
+    margin:2rem auto;
+    max-width: 60%;
+}
+
+.row {
+    justify-content: center;
+}
+
+.col {
+    justify-content: center;
+}
+
+.emojis {
+    width: 80px;
+}
+.emojis:hover {
+    filter: drop-shadow(8px 8px 4px #666553);
+    transition: filter .3s;
+
+}
+
+.borders {
+    border: 5px solid orange;
+}
+
+.imageGrid {
+    margin-top: 1rem;
+}
+
+.centerDiv {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    width: 100%;
+    margin: 0 20px;
+}
+
+.bottomBackground {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#register {
+    display: block;
+}
+
+#login {
+    display: none;
+}
+
+#logoutBtn {
+    position: fixed;
+    top: 1rem;
+    right: 10px;
+    top: 10;
+}
