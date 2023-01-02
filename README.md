@@ -1,6 +1,6 @@
 # GraphicalAuthenticationApp
 
--Must have node.js installed in order to run application
+Must have node.js installed in order to run application
 - on the command line inside '/auth-backend' run 'npm install'
 to install all dependencies
 - After, inside the same folder, start the server by typing 'node index'
